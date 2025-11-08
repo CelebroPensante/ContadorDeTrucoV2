@@ -6,10 +6,9 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.media.MediaPlayer
+import androidx.compose.ui.tooling.preview.Preview
 import kotlin.random.Random
-
 class MainActivity : AppCompatActivity() {
-
     var pontosEquipe1 = 0
     var pontosEquipe2 = 0
 
