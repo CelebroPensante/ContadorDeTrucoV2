@@ -8,10 +8,65 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnE2_S3"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:text="-3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnE2_3"
+        app:layout_constraintTop_toBottomOf="@+id/btnE2_S1" />
+
+    <Button
+        android:id="@+id/btnE2_S6"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        android:text="-6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toEndOf="@+id/btnE2_6"
+        app:layout_constraintTop_toBottomOf="@+id/btnE2_S3" />
+
+    <Button
+        android:id="@+id/btnE2_S1"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:text="-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnE2_1"
+        app:layout_constraintTop_toBottomOf="@+id/placarEquipe2" />
+
+    <Button
+        android:id="@+id/btnE1_S9"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:text="-9"
+        app:layout_constraintStart_toEndOf="@+id/btnE1_9"
+        app:layout_constraintTop_toBottomOf="@+id/btnE1_S6" />
+
+    <Button
+        android:id="@+id/btnE2_S9"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:text="-9"
+        app:layout_constraintStart_toEndOf="@+id/btnE2_9"
+        app:layout_constraintTop_toBottomOf="@+id/btnE2_S6" />
+
+    <Button
         android:id="@+id/btnE1_9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
         android:text="+9"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,10 +74,10 @@
 
     <Button
         android:id="@+id/btnE2_9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="108dp"
         android:text="+9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnE2_6" />
@@ -41,29 +96,59 @@
 
     <Button
         android:id="@+id/btnE1_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="56dp"
         android:text="+1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/placarEquipe1" />
 
     <Button
-        android:id="@+id/btnE2_6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnE1_S1"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:text="-1"
+        app:layout_constraintStart_toEndOf="@+id/btnE1_1"
+        app:layout_constraintTop_toBottomOf="@+id/placarEquipe1" />
+
+    <Button
+        android:id="@+id/btnE1_S3"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="48dp"
+        android:text="-3"
+        app:layout_constraintStart_toEndOf="@+id/btnE1_3"
+        app:layout_constraintTop_toBottomOf="@+id/btnE1_S1" />
+
+    <Button
+        android:id="@+id/btnE1_S6"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:text="-6"
+        app:layout_constraintStart_toEndOf="@+id/btnE1_6"
+        app:layout_constraintTop_toBottomOf="@+id/btnE1_S3" />
+
+    <Button
+        android:id="@+id/btnE2_6"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="108dp"
         android:text="+6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnE2_3" />
 
     <Button
         android:id="@+id/btnE1_6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
         android:text="+6"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,9 +156,9 @@
 
     <Button
         android:id="@+id/btnE1_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
         android:text="+3"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,20 +166,20 @@
 
     <Button
         android:id="@+id/btnE2_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="108dp"
         android:text="+3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnE2_1" />
 
     <Button
         android:id="@+id/btnE2_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="79dp"
+        android:layout_height="53dp"
         android:layout_marginTop="56dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="108dp"
         android:text="+1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/placarEquipe2" />
