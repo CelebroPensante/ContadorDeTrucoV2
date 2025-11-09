@@ -59,8 +59,6 @@ O aplicativo gerencia a progressão de pontos baseada nas apostas mais comuns do
 | Truco Aceito / Pedido | **3** pontos |
 | Seis Aceito / Pedido | **6** pontos |
 | Nove Aceito / Pedido | **9** pontos |
-| Queda / Doze Aceito | **12** pontos (Fim do Jogo) |
-| Desistência (Correr) | Time que pediu ganha os pontos **atuais** da mão. |
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
