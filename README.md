@@ -32,7 +32,7 @@ Este placar digital é configurado para as regras de pontuação do Truco.
 O Truco Placar Digital oferece ferramentas essenciais para levar a organização do seu jogo a um novo nível:
 
 ### 1. Contador de Pontos Inteligente (Placar)
-* **Botões de Pontuação Rápida:** Botões grandes para +1, +3, +6, +9 e Queda, minimizando erros.
+* **Botões de Pontuação Rápida:** Botões grandes para +1, +3, +6, +9, minimizando erros.
 * **Alerta de Pontuação:** Notificação sonora quando um time faz pontos.
 * **Nomeação de Times:** Permite renomear os times (ex: "Nós" vs. "Eles") para maior clareza.
 * **Histórico da Partida:** Desfazer jogadas e registro visual das últimas marcações de pontos.
@@ -92,4 +92,3 @@ cd Truco-Placar
     * Contador de Pontos
     * Tela de Vitoria
     * Banco de Dados
-    * 
