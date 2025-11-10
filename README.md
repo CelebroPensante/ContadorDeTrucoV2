@@ -46,8 +46,8 @@ O Truco Placar Digital oferece ferramentas essenciais para levar a organização
     * Porcentagem de Vitórias
 
 ### 3. Sorteador de Equipes com Roleta
-* **Roleta Dinâmica:** Ferramenta divertida para sortear os jogadores e formar as duplas.
-* **Roleta de Equipes:** Garante que as duplas sejam formadas de maneira **aleatória e justa** a cada nova partida.
+* **Sorteador Dinâmico:** Ferramenta divertida para sortear os jogadores e formar as duplas.
+* **Sorteador de Equipes:** Garante que as duplas sejam formadas de maneira **aleatória e justa** a cada nova partida.
 
 ## :bar_chart: Regras de Pontuação Suportadas
 
