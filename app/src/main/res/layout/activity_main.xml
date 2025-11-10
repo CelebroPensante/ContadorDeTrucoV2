@@ -1,323 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:backgroundTint="#C16969"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="2500dp"
+        android:id="@+id/background_image"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="-1000dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/_4232274_verde_cassino_poquer_mesa_textura_jogos_fundo_gratis_vetor"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/_4232274_verde_cassino_poquer_mesa_textura_jogos_fundo_gratis_vetor" />
-
-    <Button
-        android:id="@+id/btnE2_S3"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="#2F539B"
-        android:text="-3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toEndOf="@+id/btnE2_3"
-        app:layout_constraintTop_toBottomOf="@+id/btnE2_S1" />
+        android:contentDescription="Fundo de mesa de jogo verde" /> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
 
     <Button
-        android:id="@+id/btnE2_S6"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#2F539B"
-        android:text="-6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
-        app:layout_constraintStart_toEndOf="@+id/btnE2_6"
-        app:layout_constraintTop_toBottomOf="@+id/btnE2_S3" />
-
-    <Button
-        android:id="@+id/btnE2_S1"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="#2F539B"
-        android:text="-1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnE2_1"
-        app:layout_constraintTop_toBottomOf="@+id/placarEquipe2" />
-
-    <Button
-        android:id="@+id/btnE1_S9"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#C61616"
-        android:text="-9"
-        app:layout_constraintEnd_toStartOf="@+id/btnE2_9"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toEndOf="@+id/btnE1_9"
-        app:layout_constraintTop_toBottomOf="@+id/btnE1_S6" />
-
-    <Button
-        android:id="@+id/btnE2_S9"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#2F539B"
-        android:text="-9"
-        app:layout_constraintStart_toEndOf="@+id/btnE2_9"
-        app:layout_constraintTop_toBottomOf="@+id/btnE2_S6" />
-
-    <Button
-        android:id="@+id/btnE1_9"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#C61616"
-        android:text="+9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE1_6" />
-
-    <Button
-        android:id="@+id/btnE2_9"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="108dp"
-        android:backgroundTint="#2F539B"
-        android:text="+9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE2_6" />
-
-    <TextView
-        android:id="@+id/textView"
+        android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Contador de Truco"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#F2E7E7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginBottom="16dp"
+        android:text="Login" />
 
     <Button
-        android:id="@+id/btnE1_1"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="56dp"
-        android:backgroundTint="#CA1616"
-        android:text="+1"
-        app:iconTint="#C52222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/placarEquipe1" />
-
-    <Button
-        android:id="@+id/btnE1_S1"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="56dp"
-        android:backgroundTint="#C61616"
-        android:text="-1"
-        app:layout_constraintEnd_toStartOf="@+id/btnE2_1"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/placarEquipe1" />
-
-    <Button
-        android:id="@+id/btnE1_S3"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#C61616"
-        android:text="-3"
-        app:layout_constraintEnd_toStartOf="@+id/btnE2_3"
-        app:layout_constraintHorizontal_bias="0.119"
-        app:layout_constraintStart_toEndOf="@+id/btnE1_3"
-        app:layout_constraintTop_toBottomOf="@+id/btnE1_S1" />
-
-    <Button
-        android:id="@+id/btnE1_S6"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="40dp"
-        android:backgroundTint="#C61616"
-        android:text="-6"
-        app:layout_constraintEnd_toStartOf="@+id/btnE2_6"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE1_S3" />
-
-    <Button
-        android:id="@+id/btnE1_6"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#C61616"
-        android:text="-6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE1_3" />
-
-    <Button
-        android:id="@+id/btnE2_6"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="108dp"
-        android:backgroundTint="#2F539B"
-        android:text="+6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE2_3" />
-
-    <Button
-        android:id="@+id/btnE1_3"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#C81616"
-        android:text="+3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE1_1" />
-
-    <Button
-        android:id="@+id/btnE2_3"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="108dp"
-        android:backgroundTint="#2F539B"
-        android:text="+3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnE2_1" />
-
-    <Button
-        android:id="@+id/btnE2_1"
-        android:layout_width="79dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="108dp"
-        android:backgroundTint="#2F539B"
-        android:text="+1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/placarEquipe2" />
-
-    <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/btn_pontuador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Equipe 1"
-        android:textColor="#FFF6F6"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Equipe 2"
-        android:textColor="#FAFAFA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/placarEquipe1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:text="0"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="#FAF9F9"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/placarEquipe2"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:text="0"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="#F0F0F0"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:text="x"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="#F8F8F8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left" />
-
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left" />
-
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left" />
-
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="top" />
+        android:layout_marginBottom="16dp"
+        android:text="Pontuador" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="62dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        app:icon="@android:drawable/ic_menu_revert"
-        app:iconTint="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/btn_sorteio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Sorteador de Equipes" />
+
+    <Button
+        android:id="@+id/btn_estatisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Estatísticas" />
+
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

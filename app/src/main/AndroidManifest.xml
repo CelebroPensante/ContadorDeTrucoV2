@@ -27,7 +27,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SorteioActivity"
+        <activity
+            android:name=".JogoActivity"
+            android:exported="false"
+            android:label="Pontuador do Jogo"
+            android:theme="@style/Theme.ContadorDeTruco" />
+
+        <activity
+            android:name=".SorteioActivity"
             android:exported="false"
             android:label="Sorteio"
             android:theme="@style/Theme.ContadorDeTruco" />
