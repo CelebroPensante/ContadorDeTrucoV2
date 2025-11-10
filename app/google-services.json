@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656702276315",
+    "project_id": "truco-9d551",
+    "storage_bucket": "truco-9d551.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656702276315:android:5a1f0d353ef13611dd02fe",
+        "android_client_info": {
+          "package_name": "com.example.contadordetruco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO3ePxVrp9yw04POmiYb-n2_2KVmzQ7CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
