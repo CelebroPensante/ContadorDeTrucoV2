@@ -14,13 +14,20 @@ class VitoriaActivity : AppCompatActivity() {
         val vencedor = intent.getStringExtra("vencedor")
         val txtVencedor = findViewById<TextView>(R.id.txtVencedor)
         val btnNovoJogo = findViewById<Button>(R.id.btnNovoJogo)
+        val btnNVoltarAoMenu = findViewById<Button>(R.id.btnNVoltarAoMenu)
 
         txtVencedor.text = "$vencedor venceu! 🎉"
 
         btnNovoJogo.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(intent)
             finish()
+        }
+
+        btnNVoltarAoMenu.setOnClickListener {
+            val intentSorteio = Intent(this, SorteioActivity::class.java)
+            startActivity(intentSorteio)
         }
     }
 }

@@ -27,6 +27,11 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".SorteioActivity"
+            android:exported="false"
+            android:label="Sorteio"
+            android:theme="@style/Theme.ContadorDeTruco" />
+
     </application>
 
 </manifest>

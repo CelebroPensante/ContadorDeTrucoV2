@@ -1,6 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/_4232274_verde_cassino_poquer_mesa_textura_jogos_fundo_gratis_vetor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Digite Quatro Nomes"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextNome1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome 1"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@android:color/black"
+            android:background="#D0FFFFFF"
+            android:paddingStart="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextNome2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome 2"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@android:color/black"
+            android:background="#D0FFFFFF"
+            android:paddingStart="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextNome3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome 3"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@android:color/black"
+            android:background="#D0FFFFFF"
+            android:paddingStart="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextNome4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Nome 4"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@android:color/black"
+            android:background="#D0FFFFFF"
+            android:paddingStart="8dp"/>
+
+        <Button
+            android:id="@+id/buttonSortear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="SORTEAR 2 NOMES" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:text="Nomes Sorteados:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewSorteado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D0EEEEEE"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="-"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textViewSorteado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#D0DDDDDD"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="-"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btnVoltarParaMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="VOLTAR PARA O CONTADOR" />
+
+    </LinearLayout>
+</FrameLayout>

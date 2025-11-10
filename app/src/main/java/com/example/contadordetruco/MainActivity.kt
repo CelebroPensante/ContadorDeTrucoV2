@@ -186,6 +186,7 @@ class MainActivity : AppCompatActivity() {
             tocarSomSubtracao()
             atualizarPlacar()
         }
+
     }
 
     override fun onDestroy() {
