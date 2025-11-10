@@ -7,6 +7,17 @@
     android:gravity="center"
     android:padding="30dp">
 
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="2500dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/_4232274_verde_cassino_poquer_mesa_textura_jogos_fundo_gratis_vetor" />
+
     <TextView
         android:id="@+id/txtVencedor"
         android:layout_width="wrap_content"
@@ -15,6 +26,7 @@
         android:text="Vencedor!"
         android:textSize="36sp"
         android:textStyle="bold"
+        android:textColor="#F2E7E7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
