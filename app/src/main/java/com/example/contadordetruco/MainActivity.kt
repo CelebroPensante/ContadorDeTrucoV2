@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val btnPontuador = findViewById<Button>(R.id.btn_pontuador)
         btnPontuador.setOnClickListener {
 
-            val intent = Intent(this, JogoActivity::class.java)
+            val intent = Intent(this, ConfiguracaoDuplasActivity::class.java)
             startActivity(intent)
         }
 

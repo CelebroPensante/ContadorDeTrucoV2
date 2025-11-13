@@ -19,6 +19,32 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/_4232274_verde_cassino_poquer_mesa_textura_jogos_fundo_gratis_vetor" />
 
+    <TextView
+        android:id="@+id/textoEquipe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Equipe 1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textoEquipe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Equipe 2"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
     <Button
         android:id="@+id/btnE2_S3"
         android:layout_width="79dp"
@@ -226,28 +252,6 @@
         app:layout_constraintTop_toBottomOf="@+id/placarEquipe2" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Equipe 1"
-        android:textColor="#FFF6F6"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Equipe 2"
-        android:textColor="#FAFAFA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
         android:id="@+id/placarEquipe1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -258,8 +262,9 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
         android:textColor="#FAF9F9"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textoEquipe1" />
 
     <TextView
         android:id="@+id/placarEquipe2"
@@ -272,9 +277,9 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
         android:textColor="#F0F0F0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textoEquipe2" />
 
     <TextView
         android:id="@+id/textView8"
