@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContadorDeTruco">
 
+        <!-- Activities já existentes -->
         <activity
             android:name=".VitoriaActivity"
             android:exported="false"
@@ -39,6 +40,21 @@
             android:label="Sorteio"
             android:theme="@style/Theme.ContadorDeTruco" />
 
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Login/Registro Inicial"
+            android:theme="@style/Theme.ContadorDeTruco" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Registro de Usuário"
+            android:theme="@style/Theme.ContadorDeTruco" />
+
+
     </application>
+
 
 </manifest>
