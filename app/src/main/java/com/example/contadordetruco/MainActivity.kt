@@ -38,6 +38,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SorteioActivity::class.java)
             startActivity(intent)
         }
+
+        val btnEstatisticas = findViewById<Button>(R.id.btn_estatisticas)
+        btnEstatisticas.setOnClickListener {
+            val intent = Intent(this, EstatisticasActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun goToLoginActivity() {
