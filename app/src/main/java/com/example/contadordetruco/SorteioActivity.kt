@@ -7,6 +7,8 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import android.content.Intent
+import com.google.firebase.Firebase
+import com.google.firebase.database.database
 
 class SorteioActivity : AppCompatActivity() {
 
@@ -71,5 +73,7 @@ class SorteioActivity : AppCompatActivity() {
         textViewSorteado2.text = sorteados[1]
 
         Toast.makeText(this, "Sorteio realizado com sucesso!", Toast.LENGTH_SHORT).show()
+
     }
+
 }

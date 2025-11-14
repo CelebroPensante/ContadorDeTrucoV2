@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -66,6 +67,4 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation(platform("com.google.firebase:firebase-bom:34.5.0"))
     implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-auth")
-
 }
